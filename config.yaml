@@ -3,16 +3,16 @@ jsonFilePath: ./input.json
 baseUrl: sun.com
 portalHeading: Incident Response Phases Portal
 portalDescription: >-
-  Explore the various phases of incident response and enhance your cybersecurity
-  strategies.
-portalTitle: Incident Response Phases - Enhance Your Cybersecurity
+  Explore the phases of incident response and empower your cybersecurity
+  strategy.
+portalTitle: Incident Response Phases - Sun.com
 searchPlaceholder: Search for incident response resources...
 useAlphabetsCategory: true
 homeLink: sun.com
 logoLink: /
 ctaText: Get Started
-aboutLink: /about/
-productsLink: /products/
+aboutLink: https://sun.com/about/
+productsLink: https://sun.com/products/
 logoImgUrl: https://sun.com/_astro/logo-white.DuNP12gY_Z22gpAz.svg
 ctaLink: https://portal.gracker.ai/
 copyrightText: '&copy; Copyright 2024, Gracker.'
@@ -43,15 +43,22 @@ theme:
   secondaryColor: '#000000'
   backgroundColor: '#f0f0f0'
   textColor: '#333333'
-  accentColor: '#ff0000'
+  accentColor: '#ff5722'
 fonts:
+  - family: Bricolage Grotesque
+    weights:
+      - 400
+      - 500
+      - 600
   - family: Poppins
     weights:
       - 400
       - 500
       - 600
-  - family: Inter
-    weights:
-      - 400
-      - 500
-      - 600
+data:
+  - categoryName: default
+    categorySlug: /
+    pages:
+      - pageTitle: Off-Page SEO
+      - pageTitle: Compliance
+      - pageTitle: Customer Engagement
